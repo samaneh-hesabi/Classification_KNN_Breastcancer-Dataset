@@ -1,7 +1,7 @@
 <div style="font-size:2.5em; font-weight:bold; text-align:center; margin-top:20px;">KNN Classification on Breast Cancer Dataset</div>
 
 # 1. Project Overview
-This project demonstrates a comprehensive implementation of K-Nearest Neighbors (KNN) classification using the Breast Cancer Wisconsin dataset. The implementation includes data preprocessing, model training, and extensive evaluation metrics.
+This project demonstrates an implementation of K-Nearest Neighbors (KNN) classification using the Breast Cancer Wisconsin dataset. The implementation includes data preprocessing, model training, and evaluation metrics.
 
 # 1.1 Project Structure
 - `knn_classification.py`: Main Python script containing the KNN classification implementation
@@ -26,12 +26,6 @@ This project demonstrates a comprehensive implementation of K-Nearest Neighbors 
   - Confusion matrix
   - Accuracy, Precision, Recall, and F1 scores
 
-## 1.3.2 Toy Dataset Demonstration
-- Creates a synthetic dataset with similar characteristics
-- Demonstrates model prediction capabilities
-- Shows class probabilities and confidence scores
-- Provides clear interpretation of results (Malignant/Benign classification)
-
 # 1.4 Dataset Information
 The Breast Cancer Wisconsin dataset contains features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. The dataset includes 569 samples with 30 features each, and the target variable indicates whether the tumor is malignant (1) or benign (0).
 
@@ -55,11 +49,9 @@ The script will output:
 - Classification report
 - Confusion matrix
 - Detailed metrics (Accuracy, Precision, Recall, F1 Score)
-- Toy dataset predictions with confidence scores
-- Feature names used in the analysis
 
 # 1.6 Results Interpretation
-- The model provides both classification results and probability scores
-- Results are clearly labeled as Malignant or Benign
-- Confidence scores are provided as percentages
-- All 30 features are documented for reference
+- The model provides classification results for the test dataset
+- Results are classified as Malignant or Benign
+- Detailed metrics show the model's performance
+- The implementation uses all 30 features from the dataset
